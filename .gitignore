@@ -2,6 +2,7 @@
 *.o
 *depend.mf
 *.sqlite3
+.DS_Store
 .rake-builder*
 autom4te.cache/
 /.bundle/
