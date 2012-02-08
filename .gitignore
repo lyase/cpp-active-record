@@ -4,6 +4,7 @@
 *.sqlite3
 .DS_Store
 .rake-builder*
+active_record_*_test
 autom4te.cache/
 /.bundle/
 config.h
@@ -19,6 +20,7 @@ libactive_record_sqlite.a
 Makefile
 Makefile.in
 missing
+objects
 objects_i386
 objects_x86_64
 README
