@@ -43,7 +43,7 @@ Rake::Builder.new do | builder |
   builder.source_search_paths  = [ 'src', 'src/connection' ]
   builder.header_search_paths  = [ 'include/**/*.h' ]
   builder.objects_path         = "objects/#{ name }"
-  builder.include_paths        = [ 'include' ]
+  builder.include_paths        = [ 'include', '/usr/include/postgresql/9.1/server', '/usr/include/postgresql' ] # TODO: get pg includes from pg_config
   builder.compilation_options  = [ '-pg' ] if PROFILED
 end
 
